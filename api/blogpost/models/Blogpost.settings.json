@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "blogpost",
+  "info": {
+    "name": "blogpost",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "default": "",
+      "type": "string"
+    },
+    "Content View": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "knnm": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "nmmn": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "second content": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}
