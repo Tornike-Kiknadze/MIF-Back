@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "about",
+  "info": {
+    "name": "about",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Heading": {
+      "default": "",
+      "type": "string"
+    },
+    "Paragraph1": {
+      "default": "",
+      "type": "text"
+    },
+    "Paragraph1Heading": {
+      "default": "",
+      "type": "string"
+    },
+    "paragraph2": {
+      "default": "",
+      "type": "text"
+    },
+    "paragraph2Heading": {
+      "default": "",
+      "type": "string"
+    },
+    "Media1": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "SubHeading": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

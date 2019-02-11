@@ -1,0 +1,83 @@
+{
+  "connection": "default",
+  "collectionName": "projects",
+  "info": {
+    "name": "projects",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "date": {
+      "default": "",
+      "type": "date"
+    },
+    "paragraph1": {
+      "default": "",
+      "type": "text"
+    },
+    "media1": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Paragraph2": {
+      "default": "",
+      "type": "text"
+    },
+    "media2": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "paragraph3": {
+      "default": "",
+      "type": "text"
+    },
+    "media3": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "ending": {
+      "default": "",
+      "type": "text"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "paragraph4": {
+      "default": "",
+      "type": "text"
+    },
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "Media4": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "mainImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "subtitle": {
+      "default": "",
+      "type": "string"
+    },
+    "category": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

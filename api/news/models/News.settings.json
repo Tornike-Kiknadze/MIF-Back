@@ -1,0 +1,73 @@
+{
+  "connection": "default",
+  "collectionName": "news",
+  "info": {
+    "name": "news",
+    "description": "mif news"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "date": {
+      "default": "",
+      "type": "date"
+    },
+    "mainImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "paragraph1": {
+      "default": "",
+      "type": "text"
+    },
+    "media1": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "paragraph2": {
+      "default": "",
+      "type": "text"
+    },
+    "media2": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "paragraph3": {
+      "default": "",
+      "type": "text"
+    },
+    "media3": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "ending": {
+      "default": "",
+      "type": "text"
+    },
+    "category": {
+      "default": "",
+      "type": "string"
+    },
+    "paragraph1Heading": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
